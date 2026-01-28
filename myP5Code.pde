@@ -8,7 +8,21 @@ void setup(){
 
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
-  background(255,255,255);
+  background(220,255,250);
+  
+  fill(255,100,150);
+  textSize(30)
+  text("My favorite foods",170,100);
+
+  fill(200,130,200)
+  textSize(20)
+  text("Pizza", 270,140);
+
+  text("Chocolate chip cookies", 190,170);
+
+  text("Smash burger",230,200);
+
+  
   
   if(mousePressed){
     showXYPositions();
